@@ -32,7 +32,7 @@ class ViewController: UIViewController {
         
             keyPressed = (sender as AnyObject).currentTitle!!
             lastNumber = lastNumber * 10 + Int(keyPressed)!
-            resultScreen.text = firstNumber + " " + operationTapped + " " + keyPressed;
+            resultScreen.text = firstNumber + " " + operationTapped + " " + String(lastNumber);
         
         }
     }
@@ -41,6 +41,7 @@ class ViewController: UIViewController {
         if(!isOperationTapped){
         firstNumber = String(lastNumber)
         keyPressed = "0"
+        lastNumber = 0
         isTypingNumber = true
         isOperationTapped = true
         operationTapped = (sender as AnyObject).currentTitle!!
@@ -81,7 +82,9 @@ class ViewController: UIViewController {
     @IBAction func clearAll(_ sender: Any) {
         firstNumber = "0";
         secondNumber = "0";
+        lastNumber = 0;
         isTypingNumber = false;
+        isOperationTapped = false;
         resultScreen.text = "0";
         
     }
