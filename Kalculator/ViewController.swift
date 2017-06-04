@@ -15,6 +15,8 @@ class ViewController: UIViewController {
     
     var firstNumber = String()
     var secondNumber = String()
+    var lastNumber = Int()
+    var keyPressed = String()
     var isTypingNumber: Bool = false
     var operationTapped = String()
     var isOperationTapped : Bool = false
@@ -23,24 +25,36 @@ class ViewController: UIViewController {
     @IBAction func numberButton(_ sender: Any) {
         
         if(!isTypingNumber){
-            firstNumber = (sender as AnyObject).currentTitle!!;
-            resultScreen.text = firstNumber
-            isTypingNumber = true
+            keyPressed = (sender as AnyObject).currentTitle!!
+            lastNumber = lastNumber * 10 + Int(keyPressed)!
+            resultScreen.text = String(lastNumber)
+        }else{
+        
+            keyPressed = (sender as AnyObject).currentTitle!!
+            lastNumber = lastNumber * 10 + Int(keyPressed)!
+            resultScreen.text = firstNumber + " " + operationTapped + " " + keyPressed;
+        
         }
-        
-        secondNumber = (sender as AnyObject).currentTitle!!
-        resultScreen.text = secondNumber
-        
-        
     }
 
     @IBAction func operation(_ sender: Any) {
+        if(!isOperationTapped){
+        firstNumber = String(lastNumber)
+        keyPressed = "0"
+        isTypingNumber = true
+        isOperationTapped = true
         operationTapped = (sender as AnyObject).currentTitle!!
+        resultScreen.text = firstNumber + " " + operationTapped;
+        }
         
     }
 
     @IBAction func equal(_ sender: Any) {
         var result : Int
+        
+        secondNumber = String(lastNumber)
+        keyPressed = "0"
+        
         if(operationTapped == "+"){
         
             result = Int(firstNumber)! + Int(secondNumber)!
