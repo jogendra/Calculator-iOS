@@ -17,6 +17,7 @@ class ViewController: UIViewController {
     var secondNumber = String()
     var isTypingNumber: Bool = false
     var operationTapped = String()
+    var isOperationTapped : Bool = false
     
     
     @IBAction func numberButton(_ sender: Any) {
@@ -67,6 +68,7 @@ class ViewController: UIViewController {
         firstNumber = "0";
         secondNumber = "0";
         isTypingNumber = false;
+        resultScreen.text = "0";
         
     }
     override func viewDidLoad() {
