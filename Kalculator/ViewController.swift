@@ -45,10 +45,28 @@ class ViewController: UIViewController {
             result = Int(firstNumber)! + Int(secondNumber)!
             resultScreen.text = String(result)
         }
+        if(operationTapped == "-"){
+            
+            result = Int(firstNumber)! - Int(secondNumber)!
+            resultScreen.text = String(result)
+        }
+        if(operationTapped == "X"){
+            
+            result = Int(firstNumber)! * Int(secondNumber)!
+            resultScreen.text = String(result)
+        }
+        if(operationTapped == "/"){
+            
+            result = Int(firstNumber)! / Int(secondNumber)!
+            resultScreen.text = String(result)
+        }
         
         
     }
     @IBAction func clearAll(_ sender: Any) {
+        firstNumber = "0";
+        secondNumber = "0";
+        isTypingNumber = false;
         
     }
     override func viewDidLoad() {
