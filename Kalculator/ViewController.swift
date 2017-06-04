@@ -20,6 +20,8 @@ class ViewController: UIViewController {
     var isTypingNumber: Bool = false
     var operationTapped = String()
     var isOperationTapped : Bool = false
+    var previousOperator = String()
+    var midAnswer = Int()
     
     
     @IBAction func numberButton(_ sender: Any) {
@@ -29,27 +31,57 @@ class ViewController: UIViewController {
             lastNumber = lastNumber * 10 + Int(keyPressed)!
             resultScreen.text = String(lastNumber)
         }else{
-        
+            
             keyPressed = (sender as AnyObject).currentTitle!!
             lastNumber = lastNumber * 10 + Int(keyPressed)!
             resultScreen.text = firstNumber + " " + operationTapped + " " + String(lastNumber);
-        
+            
         }
     }
-
+    
     @IBAction func operation(_ sender: Any) {
+        
         if(!isOperationTapped){
-        firstNumber = String(lastNumber)
-        keyPressed = "0"
-        lastNumber = 0
-        isTypingNumber = true
-        isOperationTapped = true
-        operationTapped = (sender as AnyObject).currentTitle!!
-        resultScreen.text = firstNumber + " " + operationTapped;
+            firstNumber = String(lastNumber)
+            keyPressed = "0"
+            lastNumber = 0
+            isTypingNumber = true
+            isOperationTapped = true
+            operationTapped = (sender as AnyObject).currentTitle!!
+            resultScreen.text = firstNumber + " " + operationTapped;
+            previousOperator = operationTapped;
+            
+        }
+        else{
+            
+            if(previousOperator == "+"){
+            
+                midAnswer = Int(firstNumber)! + lastNumber;
+            }
+            if(previousOperator == "-"){
+                
+                midAnswer = Int(firstNumber)! - lastNumber;
+            }
+            if(previousOperator == "X"){
+                
+                midAnswer = Int(firstNumber)! * lastNumber;
+            }
+            if(previousOperator == "/"){
+                
+                midAnswer = Int(firstNumber)! / lastNumber;
+            }
+            
+            firstNumber = String(midAnswer);
+            keyPressed = "0";
+            operationTapped = (sender as AnyObject).currentTitle!!;
+            previousOperator = operationTapped;
+            resultScreen.text = firstNumber + " " + operationTapped + " " + String(lastNumber);
+            lastNumber = 0;
+            
         }
         
     }
-
+    
     @IBAction func equal(_ sender: Any) {
         var result : Int
         
@@ -57,7 +89,7 @@ class ViewController: UIViewController {
         keyPressed = "0"
         
         if(operationTapped == "+"){
-        
+            
             result = Int(firstNumber)! + Int(secondNumber)!
             resultScreen.text = String(result)
         }
@@ -92,12 +124,12 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         
     }
-
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
-
+    
+    
 }
 
