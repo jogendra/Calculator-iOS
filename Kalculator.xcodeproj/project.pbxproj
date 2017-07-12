@@ -14,6 +14,7 @@
 		40BB024C1ECDFBEF00A6F9CF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40BB024A1ECDFBEF00A6F9CF /* LaunchScreen.storyboard */; };
 		40C7D0561F161FD100E8A4E1 /* UIButtonX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40C7D0551F161FD100E8A4E1 /* UIButtonX.swift */; };
 		40C7D0581F1623B500E8A4E1 /* calculator-imjog.png in Resources */ = {isa = PBXBuildFile; fileRef = 40C7D0571F1623B500E8A4E1 /* calculator-imjog.png */; };
+		40C7D05A1F1628D600E8A4E1 /* ioscalculator2.png in Resources */ = {isa = PBXBuildFile; fileRef = 40C7D0591F1628D600E8A4E1 /* ioscalculator2.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		40BB024D1ECDFBEF00A6F9CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		40C7D0551F161FD100E8A4E1 /* UIButtonX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIButtonX.swift; sourceTree = "<group>"; };
 		40C7D0571F1623B500E8A4E1 /* calculator-imjog.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "calculator-imjog.png"; sourceTree = "<group>"; };
+		40C7D0591F1628D600E8A4E1 /* ioscalculator2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ioscalculator2.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 				40BB02451ECDFBEF00A6F9CF /* Main.storyboard */,
 				40BB02481ECDFBEF00A6F9CF /* Assets.xcassets */,
 				40C7D0571F1623B500E8A4E1 /* calculator-imjog.png */,
+				40C7D0591F1628D600E8A4E1 /* ioscalculator2.png */,
 				40BB024A1ECDFBEF00A6F9CF /* LaunchScreen.storyboard */,
 				40BB024D1ECDFBEF00A6F9CF /* Info.plist */,
 			);
@@ -134,6 +137,7 @@
 				40BB024C1ECDFBEF00A6F9CF /* LaunchScreen.storyboard in Resources */,
 				40BB02491ECDFBEF00A6F9CF /* Assets.xcassets in Resources */,
 				40BB02471ECDFBEF00A6F9CF /* Main.storyboard in Resources */,
+				40C7D05A1F1628D600E8A4E1 /* ioscalculator2.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
