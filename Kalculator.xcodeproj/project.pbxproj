@@ -12,9 +12,11 @@
 		40BB02471ECDFBEF00A6F9CF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40BB02451ECDFBEF00A6F9CF /* Main.storyboard */; };
 		40BB02491ECDFBEF00A6F9CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40BB02481ECDFBEF00A6F9CF /* Assets.xcassets */; };
 		40BB024C1ECDFBEF00A6F9CF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40BB024A1ECDFBEF00A6F9CF /* LaunchScreen.storyboard */; };
-		40C7D0561F161FD100E8A4E1 /* UIButtonX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40C7D0551F161FD100E8A4E1 /* UIButtonX.swift */; };
-		40C7D0581F1623B500E8A4E1 /* calculator-imjog.png in Resources */ = {isa = PBXBuildFile; fileRef = 40C7D0571F1623B500E8A4E1 /* calculator-imjog.png */; };
-		40C7D05A1F1628D600E8A4E1 /* ioscalculator2.png in Resources */ = {isa = PBXBuildFile; fileRef = 40C7D0591F1628D600E8A4E1 /* ioscalculator2.png */; };
+		40C7D05C1F164CD900E8A4E1 /* TrigonoCalcViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40C7D05B1F164CD900E8A4E1 /* TrigonoCalcViewController.swift */; };
+		40C7D05E1F164DC100E8A4E1 /* ioscalcwithtrig.png in Resources */ = {isa = PBXBuildFile; fileRef = 40C7D05D1F164DC100E8A4E1 /* ioscalcwithtrig.png */; };
+		40C7D0601F164E2400E8A4E1 /* ioscalcwithtrig2.png in Resources */ = {isa = PBXBuildFile; fileRef = 40C7D05F1F164E2400E8A4E1 /* ioscalcwithtrig2.png */; };
+		40D59A31201471A40079AA69 /* JSButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40D59A30201471A40079AA69 /* JSButton.swift */; };
+		40D59A332014752D0079AA69 /* JSLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40D59A322014752D0079AA69 /* JSLabel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,9 +27,11 @@
 		40BB02481ECDFBEF00A6F9CF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		40BB024B1ECDFBEF00A6F9CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		40BB024D1ECDFBEF00A6F9CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		40C7D0551F161FD100E8A4E1 /* UIButtonX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIButtonX.swift; sourceTree = "<group>"; };
-		40C7D0571F1623B500E8A4E1 /* calculator-imjog.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "calculator-imjog.png"; sourceTree = "<group>"; };
-		40C7D0591F1628D600E8A4E1 /* ioscalculator2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ioscalculator2.png; sourceTree = "<group>"; };
+		40C7D05B1F164CD900E8A4E1 /* TrigonoCalcViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrigonoCalcViewController.swift; sourceTree = "<group>"; };
+		40C7D05D1F164DC100E8A4E1 /* ioscalcwithtrig.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ioscalcwithtrig.png; sourceTree = "<group>"; };
+		40C7D05F1F164E2400E8A4E1 /* ioscalcwithtrig2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ioscalcwithtrig2.png; sourceTree = "<group>"; };
+		40D59A30201471A40079AA69 /* JSButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSButton.swift; sourceTree = "<group>"; };
+		40D59A322014752D0079AA69 /* JSLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSLabel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,15 +66,25 @@
 			children = (
 				40BB02411ECDFBEF00A6F9CF /* AppDelegate.swift */,
 				40BB02431ECDFBEF00A6F9CF /* ViewController.swift */,
-				40C7D0551F161FD100E8A4E1 /* UIButtonX.swift */,
+				40D59A30201471A40079AA69 /* JSButton.swift */,
 				40BB02451ECDFBEF00A6F9CF /* Main.storyboard */,
 				40BB02481ECDFBEF00A6F9CF /* Assets.xcassets */,
-				40C7D0571F1623B500E8A4E1 /* calculator-imjog.png */,
-				40C7D0591F1628D600E8A4E1 /* ioscalculator2.png */,
+				40C7D05D1F164DC100E8A4E1 /* ioscalcwithtrig.png */,
+				40C7D05F1F164E2400E8A4E1 /* ioscalcwithtrig2.png */,
+				40C7D0611F164E3B00E8A4E1 /* Screenshots */,
 				40BB024A1ECDFBEF00A6F9CF /* LaunchScreen.storyboard */,
 				40BB024D1ECDFBEF00A6F9CF /* Info.plist */,
+				40C7D05B1F164CD900E8A4E1 /* TrigonoCalcViewController.swift */,
+				40D59A322014752D0079AA69 /* JSLabel.swift */,
 			);
 			path = Kalculator;
+			sourceTree = "<group>";
+		};
+		40C7D0611F164E3B00E8A4E1 /* Screenshots */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Screenshots;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -133,11 +147,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				40C7D0581F1623B500E8A4E1 /* calculator-imjog.png in Resources */,
+				40C7D05E1F164DC100E8A4E1 /* ioscalcwithtrig.png in Resources */,
 				40BB024C1ECDFBEF00A6F9CF /* LaunchScreen.storyboard in Resources */,
 				40BB02491ECDFBEF00A6F9CF /* Assets.xcassets in Resources */,
 				40BB02471ECDFBEF00A6F9CF /* Main.storyboard in Resources */,
-				40C7D05A1F1628D600E8A4E1 /* ioscalculator2.png in Resources */,
+				40C7D0601F164E2400E8A4E1 /* ioscalcwithtrig2.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -150,7 +164,9 @@
 			files = (
 				40BB02441ECDFBEF00A6F9CF /* ViewController.swift in Sources */,
 				40BB02421ECDFBEF00A6F9CF /* AppDelegate.swift in Sources */,
-				40C7D0561F161FD100E8A4E1 /* UIButtonX.swift in Sources */,
+				40D59A332014752D0079AA69 /* JSLabel.swift in Sources */,
+				40D59A31201471A40079AA69 /* JSButton.swift in Sources */,
+				40C7D05C1F164CD900E8A4E1 /* TrigonoCalcViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
