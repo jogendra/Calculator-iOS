@@ -10,7 +10,9 @@ Just download source code and unzip the downloaded folder and opne project in Xc
 ```
   git clone https://github.com/imjog/Calculator-iOS.git
   ```
-  
+ ## Contact
+ If you wish to contribute, your PR are welcomed. If you have any query please drop me a mail at jogendra.singh.jog@gmail.com.
+ 
 ## License
 ```
   
