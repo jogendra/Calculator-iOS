@@ -67,8 +67,14 @@ class ViewController: UIViewController {
                 midAnswer = Int(firstNumber)! * lastNumber;
             }
             if(previousOperator == "/"){
-                
+                if lastNumber == 0{
+                    
+                    let alert = UIAlertController(title: "Alert", message: "Invalid Action!", preferredStyle: .alert)
+                    alert.addAction(UIAlertAction(title: "OK", style: .cancel, handler: nil))
+                    self.present(alert, animated: true, completion: nil)
+                }else{
                 midAnswer = Int(firstNumber)! / lastNumber;
+                }
             }
             
             firstNumber = String(midAnswer);
@@ -104,9 +110,15 @@ class ViewController: UIViewController {
             resultScreen.text = String(result)
         }
         if(operationTapped == "/"){
-            
+            if lastNumber == 0{
+                
+                let alert = UIAlertController(title: "Alert", message: "Invalid Action!", preferredStyle: .alert)
+                alert.addAction(UIAlertAction(title: "OK", style: .cancel, handler: nil))
+                self.present(alert, animated: true, completion: nil)
+            }else{
             result = Int(firstNumber)! / Int(secondNumber)!
             resultScreen.text = String(result)
+            }
         }
         
         
