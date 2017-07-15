@@ -1,4 +1,8 @@
 # iOS Calculator App
+![Language](https://img.shields.io/badge/language-Swift%203-orange.svg)
+[![Twitter](https://img.shields.io/badge/twitter-@imjog24-blue.svg?style=flat)](https://twitter.com/imjog24)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
+
 Basic calculator app for iOS devices using Swift 3 and Xcode. Created for learning purpose.
 <img src="https://github.com/imjog/Calculator-iOS/blob/master/Kalculator/ioscalcwithtrig.png" width="300">
 <img src="https://github.com/imjog/Calculator-iOS/blob/master/Kalculator/ioscalcwithtrig2.png" width="300">
