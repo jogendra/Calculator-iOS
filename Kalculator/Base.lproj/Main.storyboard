@@ -55,7 +55,7 @@
                                                     <constraint firstAttribute="width" constant="50" id="FMR-oA-raT"/>
                                                     <constraint firstAttribute="height" constant="50" id="o7A-C6-kbZ"/>
                                                 </constraints>
-                                                <state key="normal" title="Button">
+                                                <state key="normal" title="C">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
                                                 <userDefinedRuntimeAttributes>
@@ -63,7 +63,7 @@
                                                         <real key="value" value="1"/>
                                                     </userDefinedRuntimeAttribute>
                                                     <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
-                                                        <color key="value" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <color key="value" red="0.1617951393" green="0.55408745999999998" blue="0.86918073890000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     </userDefinedRuntimeAttribute>
                                                 </userDefinedRuntimeAttributes>
                                             </button>
@@ -73,7 +73,7 @@
                                                     <constraint firstAttribute="width" constant="50" id="gsD-Q4-p6o"/>
                                                     <constraint firstAttribute="height" constant="50" id="ieG-bo-LmH"/>
                                                 </constraints>
-                                                <state key="normal" title="Button">
+                                                <state key="normal" title="DEL">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
                                                 <userDefinedRuntimeAttributes>
@@ -81,7 +81,7 @@
                                                         <real key="value" value="1"/>
                                                     </userDefinedRuntimeAttribute>
                                                     <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
-                                                        <color key="value" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <color key="value" red="0.1617951393" green="0.55408745999999998" blue="0.86918073890000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     </userDefinedRuntimeAttribute>
                                                 </userDefinedRuntimeAttributes>
                                             </button>
@@ -91,7 +91,7 @@
                                                     <constraint firstAttribute="width" constant="50" id="McX-xs-G6s"/>
                                                     <constraint firstAttribute="height" constant="50" id="PEo-Sp-ToE"/>
                                                 </constraints>
-                                                <state key="normal" title="Button">
+                                                <state key="normal" title="+-">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
                                                 <userDefinedRuntimeAttributes>
@@ -109,7 +109,7 @@
                                                     <constraint firstAttribute="width" constant="50" id="4NR-bC-wth"/>
                                                     <constraint firstAttribute="height" constant="50" id="eaV-qz-Zfy"/>
                                                 </constraints>
-                                                <state key="normal" title="Button">
+                                                <state key="normal" title="/">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
                                                 <userDefinedRuntimeAttributes>
@@ -143,7 +143,7 @@
                                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="50" id="qBW-51-wL7"/>
                                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="50" id="sm8-bi-7VG"/>
                                                 </constraints>
-                                                <state key="normal" title="Button">
+                                                <state key="normal" title="7">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
                                                 <userDefinedRuntimeAttributes>
@@ -163,7 +163,7 @@
                                                     <constraint firstAttribute="width" constant="50" id="mMX-E3-tts"/>
                                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="50" id="wX4-UW-fvg"/>
                                                 </constraints>
-                                                <state key="normal" title="Button">
+                                                <state key="normal" title="8">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
                                                 <userDefinedRuntimeAttributes>
@@ -183,7 +183,7 @@
                                                     <constraint firstAttribute="height" constant="50" id="xgQ-Qi-Zgd"/>
                                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="50" id="z0S-vm-MFZ"/>
                                                 </constraints>
-                                                <state key="normal" title="Button">
+                                                <state key="normal" title="9">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
                                                 <userDefinedRuntimeAttributes>
@@ -203,7 +203,7 @@
                                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="50" id="Y6r-EI-5BE"/>
                                                     <constraint firstAttribute="height" constant="50" id="qWf-OL-K9g"/>
                                                 </constraints>
-                                                <state key="normal" title="Button">
+                                                <state key="normal" title="*">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
                                                 <userDefinedRuntimeAttributes>
@@ -235,7 +235,7 @@
                                                     <constraint firstAttribute="width" constant="50" id="9np-iF-KOs"/>
                                                     <constraint firstAttribute="height" constant="50" id="kfs-Em-fkm"/>
                                                 </constraints>
-                                                <state key="normal" title="Button">
+                                                <state key="normal" title="4">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
                                                 <userDefinedRuntimeAttributes>
@@ -253,7 +253,7 @@
                                                     <constraint firstAttribute="width" constant="50" id="4qq-tZ-hVX"/>
                                                     <constraint firstAttribute="height" constant="50" id="CrE-4Z-OfF"/>
                                                 </constraints>
-                                                <state key="normal" title="Button">
+                                                <state key="normal" title="5">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
                                                 <userDefinedRuntimeAttributes>
@@ -271,7 +271,7 @@
                                                     <constraint firstAttribute="width" constant="50" id="6n8-TU-eWx"/>
                                                     <constraint firstAttribute="height" constant="50" id="NVo-RZ-SP9"/>
                                                 </constraints>
-                                                <state key="normal" title="Button">
+                                                <state key="normal" title="6">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
                                                 <userDefinedRuntimeAttributes>
@@ -289,7 +289,7 @@
                                                     <constraint firstAttribute="width" constant="50" id="WLh-Ac-NVu"/>
                                                     <constraint firstAttribute="height" constant="50" id="aT0-TR-hya"/>
                                                 </constraints>
-                                                <state key="normal" title="Button">
+                                                <state key="normal" title="-">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
                                                 <userDefinedRuntimeAttributes>
@@ -315,7 +315,7 @@
                                                     <constraint firstAttribute="width" constant="50" id="MSr-ce-82E"/>
                                                     <constraint firstAttribute="height" constant="50" id="Phc-8r-hzw"/>
                                                 </constraints>
-                                                <state key="normal" title="Button">
+                                                <state key="normal" title="1">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
                                                 <userDefinedRuntimeAttributes>
@@ -333,7 +333,7 @@
                                                     <constraint firstAttribute="width" constant="50" id="FT9-2p-mDg"/>
                                                     <constraint firstAttribute="height" constant="50" id="ph8-ZZ-BqB"/>
                                                 </constraints>
-                                                <state key="normal" title="Button">
+                                                <state key="normal" title="2">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
                                                 <userDefinedRuntimeAttributes>
@@ -351,7 +351,7 @@
                                                     <constraint firstAttribute="width" constant="50" id="4lM-hj-cFn"/>
                                                     <constraint firstAttribute="height" constant="50" id="bVl-hE-EaO"/>
                                                 </constraints>
-                                                <state key="normal" title="Button">
+                                                <state key="normal" title="3">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
                                                 <userDefinedRuntimeAttributes>
@@ -369,7 +369,7 @@
                                                     <constraint firstAttribute="width" constant="50" id="Egh-5U-7FI"/>
                                                     <constraint firstAttribute="height" constant="50" id="gnX-oW-Zxv"/>
                                                 </constraints>
-                                                <state key="normal" title="Button">
+                                                <state key="normal" title="+">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
                                                 <userDefinedRuntimeAttributes>
@@ -390,30 +390,12 @@
                                         <rect key="frame" x="0.0" y="432.5" width="311" height="50"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qx3-7d-fib" customClass="JSButton" customModule="Kalculator" customModuleProvider="target">
-                                                <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="140" height="50"/>
                                                 <constraints>
-                                                    <constraint firstAttribute="width" constant="50" id="3HS-iB-W2p"/>
+                                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="140" id="3HS-iB-W2p"/>
                                                     <constraint firstAttribute="height" constant="50" id="SQe-nl-UwO"/>
                                                 </constraints>
-                                                <state key="normal" title="Button">
-                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                </state>
-                                                <userDefinedRuntimeAttributes>
-                                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
-                                                        <real key="value" value="1"/>
-                                                    </userDefinedRuntimeAttribute>
-                                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
-                                                        <color key="value" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                    </userDefinedRuntimeAttribute>
-                                                </userDefinedRuntimeAttributes>
-                                            </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7Ov-AP-cMp" customClass="JSButton" customModule="Kalculator" customModuleProvider="target">
-                                                <rect key="frame" x="88.5" y="0.0" width="50" height="50"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="height" constant="50" id="FwX-Nd-6RL"/>
-                                                    <constraint firstAttribute="width" constant="50" id="dup-j2-FTb"/>
-                                                </constraints>
-                                                <state key="normal" title="Button">
+                                                <state key="normal" title="0">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
                                                 <userDefinedRuntimeAttributes>
@@ -426,12 +408,12 @@
                                                 </userDefinedRuntimeAttributes>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wVn-sg-Etn" customClass="JSButton" customModule="Kalculator" customModuleProvider="target">
-                                                <rect key="frame" x="176.5" y="0.0" width="50" height="50"/>
+                                                <rect key="frame" x="175.5" y="0.0" width="50" height="50"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="50" id="Sww-qn-R51"/>
                                                     <constraint firstAttribute="height" constant="50" id="sCK-8F-enY"/>
                                                 </constraints>
-                                                <state key="normal" title="Button">
+                                                <state key="normal" title=".">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
                                                 <userDefinedRuntimeAttributes>
@@ -444,8 +426,13 @@
                                                 </userDefinedRuntimeAttributes>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="buY-tl-CEn" customClass="JSButton" customModule="Kalculator" customModuleProvider="target">
-                                                <rect key="frame" x="265" y="0.0" width="46" height="50"/>
-                                                <state key="normal" title="Button">
+                                                <rect key="frame" x="261" y="0.0" width="50" height="50"/>
+                                                <color key="backgroundColor" red="0.1617951393" green="0.55408745999999998" blue="0.86918073890000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="50" id="shk-v0-5g0"/>
+                                                    <constraint firstAttribute="width" constant="50" id="y6G-LF-3cA"/>
+                                                </constraints>
+                                                <state key="normal" title="=">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
                                                 <userDefinedRuntimeAttributes>
