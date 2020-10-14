@@ -1,0 +1,12 @@
+*.xcuserstate
+**/xcuserdata/
+
+**/*.xcuserstate
+
+*.cer
+*.swp
+.DS_Store
+*.p12
+*.idea
+*.swo
+

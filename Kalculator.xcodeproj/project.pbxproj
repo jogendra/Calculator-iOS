@@ -13,10 +13,11 @@
 		40BB02491ECDFBEF00A6F9CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40BB02481ECDFBEF00A6F9CF /* Assets.xcassets */; };
 		40BB024C1ECDFBEF00A6F9CF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40BB024A1ECDFBEF00A6F9CF /* LaunchScreen.storyboard */; };
 		40C7D05C1F164CD900E8A4E1 /* TrigonoCalcViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40C7D05B1F164CD900E8A4E1 /* TrigonoCalcViewController.swift */; };
-		40C7D05E1F164DC100E8A4E1 /* ioscalcwithtrig.png in Resources */ = {isa = PBXBuildFile; fileRef = 40C7D05D1F164DC100E8A4E1 /* ioscalcwithtrig.png */; };
-		40C7D0601F164E2400E8A4E1 /* ioscalcwithtrig2.png in Resources */ = {isa = PBXBuildFile; fileRef = 40C7D05F1F164E2400E8A4E1 /* ioscalcwithtrig2.png */; };
 		40D59A31201471A40079AA69 /* JSButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40D59A30201471A40079AA69 /* JSButton.swift */; };
 		40D59A332014752D0079AA69 /* JSLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40D59A322014752D0079AA69 /* JSLabel.swift */; };
+		9D596A1D253763A500C9F6DA /* ioscalcwithtrig.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D596A1A253763A500C9F6DA /* ioscalcwithtrig.png */; };
+		9D596A1E253763A500C9F6DA /* ioscalcwithtrig2.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D596A1B253763A500C9F6DA /* ioscalcwithtrig2.png */; };
+		9D596A1F253763A500C9F6DA /* Screen Shot 2018-01-21 at 17.07.32.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D596A1C253763A500C9F6DA /* Screen Shot 2018-01-21 at 17.07.32.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,10 +29,11 @@
 		40BB024B1ECDFBEF00A6F9CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		40BB024D1ECDFBEF00A6F9CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		40C7D05B1F164CD900E8A4E1 /* TrigonoCalcViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrigonoCalcViewController.swift; sourceTree = "<group>"; };
-		40C7D05D1F164DC100E8A4E1 /* ioscalcwithtrig.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ioscalcwithtrig.png; sourceTree = "<group>"; };
-		40C7D05F1F164E2400E8A4E1 /* ioscalcwithtrig2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ioscalcwithtrig2.png; sourceTree = "<group>"; };
 		40D59A30201471A40079AA69 /* JSButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSButton.swift; sourceTree = "<group>"; };
 		40D59A322014752D0079AA69 /* JSLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSLabel.swift; sourceTree = "<group>"; };
+		9D596A1A253763A500C9F6DA /* ioscalcwithtrig.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ioscalcwithtrig.png; path = Screenshots/ioscalcwithtrig.png; sourceTree = "<group>"; };
+		9D596A1B253763A500C9F6DA /* ioscalcwithtrig2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ioscalcwithtrig2.png; path = Screenshots/ioscalcwithtrig2.png; sourceTree = "<group>"; };
+		9D596A1C253763A500C9F6DA /* Screen Shot 2018-01-21 at 17.07.32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Screen Shot 2018-01-21 at 17.07.32.png"; path = "Screenshots/Screen Shot 2018-01-21 at 17.07.32.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,9 @@
 		40C7D0611F164E3B00E8A4E1 /* Screenshots */ = {
 			isa = PBXGroup;
 			children = (
+				9D596A1A253763A500C9F6DA /* ioscalcwithtrig.png */,
+				9D596A1B253763A500C9F6DA /* ioscalcwithtrig2.png */,
+				9D596A1C253763A500C9F6DA /* Screen Shot 2018-01-21 at 17.07.32.png */,
 			);
 			name = Screenshots;
 			sourceTree = "<group>";
@@ -114,7 +119,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
-				LastUpgradeCheck = 0830;
+				LastUpgradeCheck = 1170;
 				ORGANIZATIONNAME = "Jogendra Singh";
 				TargetAttributes = {
 					40BB023D1ECDFBEF00A6F9CF = {
@@ -126,7 +131,7 @@
 			};
 			buildConfigurationList = 40BB02391ECDFBEF00A6F9CF /* Build configuration list for PBXProject "Kalculator" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
@@ -147,10 +152,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9D596A1D253763A500C9F6DA /* ioscalcwithtrig.png in Resources */,
 				40C7D05E1F164DC100E8A4E1 /* ioscalcwithtrig.png in Resources */,
 				40BB024C1ECDFBEF00A6F9CF /* LaunchScreen.storyboard in Resources */,
 				40BB02491ECDFBEF00A6F9CF /* Assets.xcassets in Resources */,
 				40BB02471ECDFBEF00A6F9CF /* Main.storyboard in Resources */,
+				9D596A1F253763A500C9F6DA /* Screen Shot 2018-01-21 at 17.07.32.png in Resources */,
+				9D596A1E253763A500C9F6DA /* ioscalcwithtrig2.png in Resources */,
 				40C7D0601F164E2400E8A4E1 /* ioscalcwithtrig2.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -196,21 +204,30 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -233,7 +250,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -246,21 +263,30 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -277,7 +303,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -294,7 +320,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = jog.Kalculator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -307,7 +333,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = jog.Kalculator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};

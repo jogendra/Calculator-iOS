@@ -25,13 +25,11 @@ class ViewController: UIViewController {
     
     
     @IBAction func numberButton(_ sender: Any) {
-        
         if(!isTypingNumber){
             keyPressed = (sender as AnyObject).currentTitle!!
             lastNumber = lastNumber * 10 + Int(keyPressed)!
             resultScreen.text = String(lastNumber)
         }else{
-            
             keyPressed = (sender as AnyObject).currentTitle!!
             lastNumber = lastNumber * 10 + Int(keyPressed)!
             resultScreen.text = firstNumber + " " + operationTapped + " " + String(lastNumber);
@@ -40,7 +38,6 @@ class ViewController: UIViewController {
     }
     
     @IBAction func operation(_ sender: Any) {
-        
         if(!isOperationTapped){
             firstNumber = String(lastNumber)
             keyPressed = "0"
@@ -53,20 +50,16 @@ class ViewController: UIViewController {
             
         }
         else{
-            
             if(previousOperator == "+"){
-            
                 midAnswer = Int(firstNumber)! + lastNumber;
             }
-            if(previousOperator == "-"){
-                
+            else if(previousOperator == "-"){
                 midAnswer = Int(firstNumber)! - lastNumber;
             }
-            if(previousOperator == "X"){
-                
+            else if(previousOperator == "X"){
                 midAnswer = Int(firstNumber)! * lastNumber;
             }
-            if(previousOperator == "/"){
+            else if(previousOperator == "/"){
                 if lastNumber == 0{
                     
                     let alert = UIAlertController(title: "Alert", message: "Invalid Action!", preferredStyle: .alert)
@@ -99,17 +92,17 @@ class ViewController: UIViewController {
             result = Int(firstNumber)! + Int(secondNumber)!
             resultScreen.text = String(result)
         }
-        if(operationTapped == "-"){
+        else if(operationTapped == "-"){
             
             result = Int(firstNumber)! - Int(secondNumber)!
             resultScreen.text = String(result)
         }
-        if(operationTapped == "X"){
+        else if(operationTapped == "X"){
             
             result = Int(firstNumber)! * Int(secondNumber)!
             resultScreen.text = String(result)
         }
-        if(operationTapped == "/"){
+        else if(operationTapped == "/"){
             if lastNumber == 0{
                 
                 let alert = UIAlertController(title: "Alert", message: "Invalid Action!", preferredStyle: .alert)
@@ -120,9 +113,8 @@ class ViewController: UIViewController {
             resultScreen.text = String(result)
             }
         }
-        
-        
     }
+
     @IBAction func clearAll(_ sender: Any) {
         firstNumber = "0";
         secondNumber = "0";
@@ -132,16 +124,13 @@ class ViewController: UIViewController {
         resultScreen.text = "0";
         
     }
+
     override func viewDidLoad() {
         super.viewDidLoad()
-        
     }
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-    
-    
 }
-
