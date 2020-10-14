@@ -1,3 +1,13 @@
+*.xcuserstate
+**/xcuserdata/
+
+PatchDay.xcodeproj/project.xcworkspace/xcuserdata
+**/*.xcuserstate
+
+*.cer
+*.swp
 .DS_Store
-*/xcuserdata
+*.p12
+*.idea
+*.swo
 
